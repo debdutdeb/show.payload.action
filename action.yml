@@ -4,6 +4,9 @@ inputs:
   key: # id of input
     description: 'Key dot delimited'
     required: false
+  show-keys:
+    description: 'Show object keys'
+    required: false
 runs:
   using: 'node16'
   main: 'dist/index.js'
