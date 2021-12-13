@@ -1,0 +1,9 @@
+name: 'Show Payload'
+description: 'Show event payload depending on key'
+inputs:
+  key: # id of input
+    description: 'Key dot delimited'
+    required: false
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

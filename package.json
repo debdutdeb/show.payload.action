@@ -1,0 +1,24 @@
+{
+  "name": "show.payload.action",
+  "version": "1.0.0",
+  "description": "Display github event payload action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debdutdeb/show.payload.action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debdutdeb/show.payload.action/issues"
+  },
+  "homepage": "https://github.com/debdutdeb/show.payload.action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
